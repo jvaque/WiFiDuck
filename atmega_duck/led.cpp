@@ -9,7 +9,7 @@
 
 #if defined(NEOPIXEL)
 
-#include "NeoPixel.h"
+#include "src/Adafruit_NeoPixel/NeoPixel.h"
 
 namespace led {
     NeoPixel led { NEOPIXEL_NUM, LED_PIN, NEO_GRB + NEO_KHZ800 };
@@ -30,7 +30,7 @@ namespace led {
 
 #elif defined(DOTSTAR)
 
-#include "Adafruit_DotStar.h"
+#include "src/Adafruit_DotStar/Adafruit_DotStar.h"
 
 namespace led {
     Adafruit_DotStar led { DOTSTAR_NUM, DOTSTAR_DI, DOTSTAR_CI, DOTSTAR_BGR };
