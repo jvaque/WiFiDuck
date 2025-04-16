@@ -8,7 +8,7 @@
 
 #include "config.h"
 // #include "debug.h"
-#include "keyboard.h"
+#include "src/keyboard/keyboard.h"
 #include "led.h"
 
 extern "C" {

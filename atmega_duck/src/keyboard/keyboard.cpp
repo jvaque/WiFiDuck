@@ -4,7 +4,7 @@
  */
 
 #include "keyboard.h"
-#include "debug.h"
+#include "../../debug.h"
 
 namespace keyboard {
     // ====== PRIVATE ====== //
